@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GunShoot_game
 {
-    public partial class Form1 : Form
+    public partial class Game_form : Form
     {
-        public Form1()
+        public Game_form()
         {
             InitializeComponent();
         }

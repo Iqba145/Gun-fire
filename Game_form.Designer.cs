@@ -1,6 +1,6 @@
 ﻿namespace GunShoot_game
 {
-    partial class Form1
+    partial class Game_form
     {
         /// <summary>
         /// Required designer variable.
