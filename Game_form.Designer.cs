@@ -41,7 +41,7 @@
             // 
             // btn_Load
             // 
-            this.btn_Load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_Load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Load.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Load.ForeColor = System.Drawing.Color.Red;
             this.btn_Load.Location = new System.Drawing.Point(12, 25);
@@ -53,7 +53,7 @@
             // 
             // btn_Spin
             // 
-            this.btn_Spin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_Spin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Spin.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Spin.ForeColor = System.Drawing.Color.Red;
             this.btn_Spin.Location = new System.Drawing.Point(12, 210);
@@ -65,7 +65,7 @@
             // 
             // btn_Shoot
             // 
-            this.btn_Shoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_Shoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Shoot.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Shoot.ForeColor = System.Drawing.Color.Red;
             this.btn_Shoot.Location = new System.Drawing.Point(12, 404);
@@ -77,7 +77,7 @@
             // 
             // btn_Shootaway
             // 
-            this.btn_Shootaway.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.btn_Shootaway.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Shootaway.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Shootaway.ForeColor = System.Drawing.Color.Red;
             this.btn_Shootaway.Location = new System.Drawing.Point(259, 404);
@@ -86,7 +86,6 @@
             this.btn_Shootaway.TabIndex = 3;
             this.btn_Shootaway.Text = "Shoot away";
             this.btn_Shootaway.UseVisualStyleBackColor = false;
-      //      this.btn_Shootaway.Click += new System.EventHandler(this.btn_Shootaway_Click);
             // 
             // btn_Playagain
             // 
@@ -109,7 +108,6 @@
             this.btn_Exit.TabIndex = 5;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = false;
-         //   this.btn_Exit.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox1
             // 
