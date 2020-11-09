@@ -86,7 +86,7 @@
             this.btn_Shootaway.TabIndex = 3;
             this.btn_Shootaway.Text = "Shoot away";
             this.btn_Shootaway.UseVisualStyleBackColor = false;
-            this.btn_Shootaway.Click += new System.EventHandler(this.button4_Click);
+      //      this.btn_Shootaway.Click += new System.EventHandler(this.btn_Shootaway_Click);
             // 
             // btn_Playagain
             // 
@@ -109,7 +109,7 @@
             this.btn_Exit.TabIndex = 5;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = false;
-            this.btn_Exit.Click += new System.EventHandler(this.button6_Click);
+         //   this.btn_Exit.Click += new System.EventHandler(this.button6_Click);
             // 
             // pictureBox1
             // 

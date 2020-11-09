@@ -23,20 +23,20 @@ namespace GunShoot_game
             btn_Shoot.Enabled = false;
         }
 
-        private void pictureBox2_Click(object sender, EventArgs e)
+        private void btn_Load_Click(object sender, EventArgs e)
         {
             btn_Spin.Enabled = true;
             btn_Load.Enabled = false;
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btn_Spin_Click(object sender, EventArgs e)
         {
             btn_Shoot.Enabled = true;
             btn_Spin.Enabled = false;
         }
 
-        private void button6_Click(object sender, EventArgs e)
+        private void Btn_PlayAgain_Click(object sender, EventArgs e)
         {
             btn_Load.Enabled = true;
             btn_Spin.Enabled = false;
