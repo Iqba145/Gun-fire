@@ -44,9 +44,9 @@
             this.btn_Load.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Load.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Load.ForeColor = System.Drawing.Color.Red;
-            this.btn_Load.Location = new System.Drawing.Point(12, 25);
+            this.btn_Load.Location = new System.Drawing.Point(12, 12);
             this.btn_Load.Name = "btn_Load";
-            this.btn_Load.Size = new System.Drawing.Size(156, 103);
+            this.btn_Load.Size = new System.Drawing.Size(169, 63);
             this.btn_Load.TabIndex = 0;
             this.btn_Load.Text = "Load";
             this.btn_Load.UseVisualStyleBackColor = false;
@@ -56,9 +56,9 @@
             this.btn_Spin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Spin.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Spin.ForeColor = System.Drawing.Color.Red;
-            this.btn_Spin.Location = new System.Drawing.Point(12, 210);
+            this.btn_Spin.Location = new System.Drawing.Point(12, 95);
             this.btn_Spin.Name = "btn_Spin";
-            this.btn_Spin.Size = new System.Drawing.Size(156, 110);
+            this.btn_Spin.Size = new System.Drawing.Size(169, 71);
             this.btn_Spin.TabIndex = 1;
             this.btn_Spin.Text = "Spin";
             this.btn_Spin.UseVisualStyleBackColor = false;
@@ -68,9 +68,9 @@
             this.btn_Shoot.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Shoot.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Shoot.ForeColor = System.Drawing.Color.Red;
-            this.btn_Shoot.Location = new System.Drawing.Point(12, 404);
+            this.btn_Shoot.Location = new System.Drawing.Point(12, 194);
             this.btn_Shoot.Name = "btn_Shoot";
-            this.btn_Shoot.Size = new System.Drawing.Size(160, 103);
+            this.btn_Shoot.Size = new System.Drawing.Size(169, 73);
             this.btn_Shoot.TabIndex = 2;
             this.btn_Shoot.Text = "Shoot";
             this.btn_Shoot.UseVisualStyleBackColor = false;
@@ -80,9 +80,9 @@
             this.btn_Shootaway.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.btn_Shootaway.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_Shootaway.ForeColor = System.Drawing.Color.Red;
-            this.btn_Shootaway.Location = new System.Drawing.Point(259, 404);
+            this.btn_Shootaway.Location = new System.Drawing.Point(12, 301);
             this.btn_Shootaway.Name = "btn_Shootaway";
-            this.btn_Shootaway.Size = new System.Drawing.Size(151, 103);
+            this.btn_Shootaway.Size = new System.Drawing.Size(169, 79);
             this.btn_Shootaway.TabIndex = 3;
             this.btn_Shootaway.Text = "Shoot away";
             this.btn_Shootaway.UseVisualStyleBackColor = false;
@@ -91,7 +91,7 @@
             // 
             this.btn_Playagain.BackColor = System.Drawing.Color.Green;
             this.btn_Playagain.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Playagain.Location = new System.Drawing.Point(497, 404);
+            this.btn_Playagain.Location = new System.Drawing.Point(12, 404);
             this.btn_Playagain.Name = "btn_Playagain";
             this.btn_Playagain.Size = new System.Drawing.Size(156, 103);
             this.btn_Playagain.TabIndex = 4;
@@ -102,7 +102,7 @@
             // 
             this.btn_Exit.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btn_Exit.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Exit.Location = new System.Drawing.Point(739, 404);
+            this.btn_Exit.Location = new System.Drawing.Point(224, 404);
             this.btn_Exit.Name = "btn_Exit";
             this.btn_Exit.Size = new System.Drawing.Size(154, 103);
             this.btn_Exit.TabIndex = 5;
@@ -111,9 +111,9 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(317, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(275, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(576, 295);
+            this.pictureBox1.Size = new System.Drawing.Size(576, 368);
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 

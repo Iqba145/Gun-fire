@@ -16,10 +16,10 @@ namespace GunShoot_game
         {
             InitializeComponent();
         }
-
+        //Game form Load function will disable all the buttons except load button
         private void Game_form_Load(object sender, EventArgs e)
         {
-            btn_Spin.Enabled = false;
+            btn_Spin.Enabled = false; //disabling the Spin button
             btn_Shoot.Enabled = false;
         }
 
@@ -36,7 +36,7 @@ namespace GunShoot_game
             btn_Spin.Enabled = false;
         }
 
-        private void Btn_PlayAgain_Click(object sender, EventArgs e)
+        private void btn_PlayAgain_Click(object sender, EventArgs e)
         {
             btn_Load.Enabled = true;
             btn_Spin.Enabled = false;
