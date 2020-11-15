@@ -38,7 +38,8 @@ namespace GunShoot_game
 
         private void btn_Shoot_Click(object sender, EventArgs e)
         {
-            
+            btn_Spin.Enabled = false;
+            btn_Shoot.Enabled = true;
         }
 
         private void btn_Load_Click_1(object sender, EventArgs e)

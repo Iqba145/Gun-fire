@@ -44445,8 +44445,4 @@
         prRlKPtKQAAAOw==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Winchester12_RA_The_Sun_God_1722751268" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Winchester12-RA_The_Sun_God-1722751268.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
 </root>

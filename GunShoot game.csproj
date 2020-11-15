@@ -86,5 +86,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\tenor.gif" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20200503_112010.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
