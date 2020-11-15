@@ -27,7 +27,11 @@ namespace GunShoot_game
         {
             btn_Spin.Enabled = true;
             btn_Load.Enabled = false;
-
+            //code to display image in picture box on button click  
+            System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
+            Bitmap bmp_Object = new Bitmap(myStream);
+            picture.Image = bmp_Object;
         }
 
         private void btn_Spin_Click(object sender, EventArgs e)
@@ -43,20 +47,12 @@ namespace GunShoot_game
             btn_Shoot.Enabled = false;
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-
-        }
+  
 
         private void btn_Shoot_Click(object sender, EventArgs e)
         {
-            System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(GunShoot_game.Properties.Resources.Shoot.);
-            Sound_Object.Play();
+            
         }
     }
 }

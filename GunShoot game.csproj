@@ -83,5 +83,8 @@
   <ItemGroup>
     <None Include="Resources\Winchester12-RA_The_Sun_God-1722751268.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\tenor.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

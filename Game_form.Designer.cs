@@ -35,10 +35,8 @@
             this.btn_Shootaway = new System.Windows.Forms.Button();
             this.btn_Playagain = new System.Windows.Forms.Button();
             this.btn_Exit = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.picture = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.picture)).BeginInit();
             this.SuspendLayout();
             // 
             // btn_Load
@@ -112,23 +110,13 @@
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // picture
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(268, 13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(549, 368);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(278, 13);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(245, 139);
-            this.pictureBox2.TabIndex = 7;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.picture.Location = new System.Drawing.Point(268, 13);
+            this.picture.Name = "picture";
+            this.picture.Size = new System.Drawing.Size(549, 368);
+            this.picture.TabIndex = 6;
+            this.picture.TabStop = false;
             // 
             // Game_form
             // 
@@ -137,8 +125,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(919, 512);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.picture);
             this.Controls.Add(this.btn_Exit);
             this.Controls.Add(this.btn_Playagain);
             this.Controls.Add(this.btn_Shootaway);
@@ -149,8 +136,7 @@
             this.Name = "Game_form";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Game_form_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picture)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -163,8 +149,7 @@
         private System.Windows.Forms.Button btn_Shootaway;
         private System.Windows.Forms.Button btn_Playagain;
         private System.Windows.Forms.Button btn_Exit;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox picture;
     }
 }
 
