@@ -23,22 +23,8 @@ namespace GunShoot_game
             btn_Shoot.Enabled = false;
         }
 
-        private void btn_Load_Click(object sender, EventArgs e)
-        {
-            btn_Spin.Enabled = true;
-            btn_Load.Enabled = false;
-            //code to display image in picture box on button click  
-            System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
-            System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
-            Bitmap bmp_Object = new Bitmap(myStream);
-            picture.Image = bmp_Object;
-        }
-
-        private void btn_Spin_Click(object sender, EventArgs e)
-        {
-            btn_Shoot.Enabled = true;
-            btn_Spin.Enabled = false;
-        }
+    
+   
 
         private void btn_PlayAgain_Click(object sender, EventArgs e)
         {
@@ -54,5 +40,37 @@ namespace GunShoot_game
         {
             
         }
+
+        private void btn_Load_Click_1(object sender, EventArgs e)
+        {
+                btn_Spin.Enabled = true;
+                btn_Load.Enabled = false;
+                //code to display image in picture box on button click  
+                System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
+                System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
+                Bitmap bmp_Object = new Bitmap(myStream);
+                picture.Image = bmp_Object;
+            }
+
+        private void btn_Spin_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Shootaway_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Playagain_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Exit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
-}
+    }
+

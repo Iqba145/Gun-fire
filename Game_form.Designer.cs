@@ -50,6 +50,7 @@
             this.btn_Load.TabIndex = 0;
             this.btn_Load.Text = "Load";
             this.btn_Load.UseVisualStyleBackColor = false;
+            this.btn_Load.Click += new System.EventHandler(this.btn_Load_Click_1);
             // 
             // btn_Spin
             // 
@@ -62,6 +63,7 @@
             this.btn_Spin.TabIndex = 1;
             this.btn_Spin.Text = "Spin";
             this.btn_Spin.UseVisualStyleBackColor = false;
+            this.btn_Spin.Click += new System.EventHandler(this.btn_Spin_Click);
             // 
             // btn_Shoot
             // 
@@ -87,6 +89,7 @@
             this.btn_Shootaway.TabIndex = 3;
             this.btn_Shootaway.Text = "Shoot away";
             this.btn_Shootaway.UseVisualStyleBackColor = false;
+            this.btn_Shootaway.Click += new System.EventHandler(this.btn_Shootaway_Click);
             // 
             // btn_Playagain
             // 
@@ -98,6 +101,7 @@
             this.btn_Playagain.TabIndex = 4;
             this.btn_Playagain.Text = "Play Again";
             this.btn_Playagain.UseVisualStyleBackColor = false;
+            this.btn_Playagain.Click += new System.EventHandler(this.btn_Playagain_Click_1);
             // 
             // btn_Exit
             // 
@@ -109,6 +113,7 @@
             this.btn_Exit.TabIndex = 5;
             this.btn_Exit.Text = "Exit";
             this.btn_Exit.UseVisualStyleBackColor = false;
+            this.btn_Exit.Click += new System.EventHandler(this.btn_Exit_Click);
             // 
             // picture
             // 
