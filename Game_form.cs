@@ -22,20 +22,6 @@ namespace GunShoot_game
             btn_Spin.Enabled = false; //disabling the Spin button
             btn_Shoot.Enabled = false;
         }
-
-    
-   
-
-        private void btn_PlayAgain_Click(object sender, EventArgs e)
-        {
-            btn_Load.Enabled = true;
-            btn_Spin.Enabled = false;
-            btn_Shoot.Enabled = false;
-        }
-
-
-  
-
         private void btn_Shoot_Click(object sender, EventArgs e)
         {
             btn_Spin.Enabled = false;
@@ -51,14 +37,14 @@ namespace GunShoot_game
                 btn_Load.Enabled = false;
                 //code to display image in picture box on button click  
                 System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
-                System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
+                System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.Load.jpg");
                 Bitmap bmp_Object = new Bitmap(myStream);
                 picture.Image = bmp_Object;
             }
 
         private void btn_Spin_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btn_Shootaway_Click(object sender, EventArgs e)
@@ -68,7 +54,9 @@ namespace GunShoot_game
 
         private void btn_Playagain_Click_1(object sender, EventArgs e)
         {
-
+            btn_Load.Enabled = true;
+            btn_Spin.Enabled = false;
+            btn_Shoot.Enabled = false;
         }
 
         private void btn_Exit_Click(object sender, EventArgs e)

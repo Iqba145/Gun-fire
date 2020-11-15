@@ -68,15 +68,5 @@ namespace GunShoot_game.Properties {
                 return ResourceManager.GetStream("Sound", resourceCulture);
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap tenor {
-            get {
-                object obj = ResourceManager.GetObject("tenor", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Game_form.Designer.cs">
       <DependentUpon>Game_form.cs</DependentUpon>
     </Compile>
+    <Compile Include="Logic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Game_form.resx">
@@ -79,12 +80,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\tenor.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\20200503_112010.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sound.wav" />

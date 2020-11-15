@@ -119,7 +119,7 @@
             // 
             this.picture.Location = new System.Drawing.Point(268, 13);
             this.picture.Name = "picture";
-            this.picture.Size = new System.Drawing.Size(549, 368);
+            this.picture.Size = new System.Drawing.Size(525, 368);
             this.picture.TabIndex = 6;
             this.picture.TabStop = false;
             // 
