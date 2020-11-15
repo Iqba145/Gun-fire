@@ -42,5 +42,21 @@ namespace GunShoot_game
             btn_Spin.Enabled = false;
             btn_Shoot.Enabled = false;
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_Shoot_Click(object sender, EventArgs e)
+        {
+            System.Media.SoundPlayer Sound_Object = new System.Media.SoundPlayer(GunShoot_game.Properties.Resources.Shoot.);
+            Sound_Object.Play();
+        }
     }
 }
