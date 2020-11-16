@@ -48,6 +48,7 @@ namespace GunShoot_game
             System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
             System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
             Bitmap bmp_Object = new Bitmap(myStream);
+            picture.Image = bmp_Object;
         }
 
         private void btn_Shootaway_Click(object sender, EventArgs e)
