@@ -44,7 +44,10 @@ namespace GunShoot_game
 
         private void btn_Spin_Click(object sender, EventArgs e)
         {
-            
+            //code to display image in picture box on button click  
+            System.Reflection.Assembly myAssembly = System.Reflection.Assembly.GetExecutingAssembly();
+            System.IO.Stream myStream = myAssembly.GetManifestResourceStream("GunShoot_game.Resources.tenor.gif");
+            Bitmap bmp_Object = new Bitmap(myStream);
         }
 
         private void btn_Shootaway_Click(object sender, EventArgs e)

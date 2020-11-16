@@ -87,5 +87,8 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\Load.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tenor.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
