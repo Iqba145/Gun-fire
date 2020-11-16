@@ -49,9 +49,9 @@
     <Compile Include="Game_form.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Game_form.Designer.cs">
+    <EmbeddedResource Include="Game_form.Designer.cs">
       <DependentUpon>Game_form.cs</DependentUpon>
-    </Compile>
+    </EmbeddedResource>
     <Compile Include="Logic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -79,7 +79,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="App.config" />
+    <EmbeddedResource Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sound.wav" />
@@ -88,7 +88,7 @@
     <EmbeddedResource Include="Resources\Load.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\tenor.gif" />
+    <EmbeddedResource Include="Resources\tenor.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
